@@ -36,6 +36,93 @@
                 <td>5</td>
             </tr>
         </tbody>
+
+        <!--footer-->
+
+        <tfoot>
+            <tr>
+                <th>Sum</th>
+                <th>22</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br/>
+    <!--using rowspan and colspan-->
+    <!--
+    Food Menu
+    Item	Price
+            INR	USD
+    Frooti	10	0.14
+    samosa	10	0.14
+    chips	10	0.14-->
+    <table border="black">
+        <caption>Food Menu</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+    
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+    
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>samosa</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>chips</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+
+    <!--A test table with merged cells
+             Average	     Red Eyes
+           Height	Weight
+    Males	1.9	    0.003	    40%
+    Females	1.7	    0.002	    43%-->
+
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+
+        <thead>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Average</td>
+                <td  rowspan="2">Red Eyes</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </thead>
     </table>
 </body>
 </html>
