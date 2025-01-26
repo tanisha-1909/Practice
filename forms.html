@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<form>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <!--label forms connection between text and input element-->
+        <label>
+            Enter Username
+            <input type="text" placeholder="Enter your Username" name="username"/>
+        </label>
+        <br/>
+        
+        <label>
+            Enter Password
+            <input type="password" placeholder="Enter Password" name="pass"/>
+        </label>
+        <br/>
+        <!--classical approach for label-->
+        <div>
+            <label for="age">Enter Age</label>
+            <input type="number" placeholder="Enter your age here" id="age" />
+        </div>
+        <br/>
+        Time
+        <input type="time" placeholder="Select current time"/>
+        <br>
+        color
+        <input type="color" placeholder="select color">
+        <br/>
+
+
+        <!--button-->
+        <button type="submit">Submit</button>
+        <button type="button">Hello</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <hr/>
+    <!--redirect search to youtube-->
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="seacrh youtube" name="search_query">
+        <button>Search</button>
+    </form>
+    <hr/>
+    <!--redirect search to google-->
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search here">
+        <button>Submit</button>
+    </form>
+
+     <!--checkbox (multiselect)-->
+    <hr/>
+     <form action="/server">
+        <input type="checkbox" id="age"  name="age" value="18">
+        <label for="age">I am 18+</label>
+        <input type="checkbox" id="age"  name="age" value="28">
+        <label for="age">I am 28+</label>
+        <input type="checkbox" id="age"  name="age" value="38">
+        <label for="age">I am 138+</label>
+        <button>submit</button>
+     </form>
+
+     <!--radio button (single select)--> 
+     <hr/>
+     <form action="/server">
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple"> Apple</label>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana"> banana</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango"> mango</label>
+        <button>Submit</button>
+     </form>
+
+     <hr/>
+
+     <!--dropdown-->
+
+     <form action="/server">
+        choose profession
+        <select name="profession" id="profession">
+            <option value="student"> Student</option>
+            <option value="dev">Developer</option>
+            
+        </select>
+        <button >Submit</button>
+     </form>
+
+     <hr/>
+
+     <!--range-->
+
+     <form action="/server">
+        <label for="vol">Select Audio levels</label>
+        <input type="range" min="0" max="50" name="range" id="volume" step="10">
+        <button>Submit</button>
+     </form>
+     <hr/>
+     <!--textarea-->
+
+     <form action="/server">
+        <label for="feedback">Please provide feedback</label>
+        <textarea name="feedback" id="feedback" placeholder="enter here" rows="5" cols="50"></textarea>
+        <button>Submit</button>
+     </form>
+</body>
+</html>
