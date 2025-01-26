@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--Registration form
+First Name Last Name
+
+Please select gender Male/Female
+
+Do you agree to all terms of service?  Yes,I agree
+Register
+
+-->
+    <div>
+        <h2>Registration form</h2>
+        <form action="/server">
+            <input type="text" name="firstname" id="first" placeholder="First Name">
+            <input type="text" name="lastname" id="last" placeholder="Last Name">
+            <br>
+            <label for="gender">Please select gender</label>
+            <select name="gender" id="gender" >
+                <option id="m" value="m">Male</option>
+                <option id="f" value="f">Female</option>
+            </select>
+            <br>
+            <label >Do you agree to all terms of service?</label>
+            <input type="checkbox" checked name="terms" id="terms">
+            <label for="terms">Yes,I agree</label>
+            <br>
+            <button>Register</button>
+        </form>
+    </div>
+
+    <hr/>
+
+    <!--Student Information
+        Info	Name	Address
+                    City	House
+                A	Delhi	1
+                B	Mumbai	2
+                C	Kolkata	3
+                D	Pune	4-->
+    <table border="black">
+        <caption>Student Information</caption>
+        
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        
+            <tr> 
+                
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        
+    </table>
+    <hr>
+    <form action="/server">
+       <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name"  id="name">
+       </div>
+        <div>
+            <label for="s">Sex:</label>
+            <input type="radio" name="s" id="m" value="M">
+            <label for ="m">Male</label>
+            <input type="radio" name="s" id="f" value="F">
+            <label for ="f">Female</label>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option val="india">India</option>
+                <option val="china">China</option>
+                <option val="pakistan">Pakiston</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mess">Message:</label>
+            <br>
+            <textarea rows="5" cols="30" id="mess"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="check" name="subscribe">
+            <label for="check">Subscribe?</label>
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <form action="/server">
+        <h3>Feedback Form</h3>
+
+        <div>
+            <label for="n">Name:</label>
+            <input type="text" placeholder="Write your name" name="name" id="n">
+        </div>
+        <br/>
+        <div>
+            <label for="e">Email:</label>
+            <input type="email" placeholder="Enter your email" name="email" id="e">
+        </div>
+        <br/>
+        <div>
+            <label for="message">Message:</label>
+            <br/>
+            <textarea id="message" rows="5" cols="20" name="content"></textarea>
+        </div>
+        <br/>
+        <div>
+            <label >Rate us out of 5:</label>
+            <br/>
+            <input name="w" type="radio" id="p" value="1">
+            <label for="p" name="rate">1</label>
+            <br/>
+            
+            <input name="w" type="radio" id="q" value="2">
+            <label for="q" name="rate">2</label>
+            <br/>
+            
+            <input name="w" type="radio" id="r" value="3">
+            <label for="r" name="rate">3</label>
+            <br/>
+            
+            <input name="w" type="radio" id="s" value="4">
+            <label for="s" name="rate">4</label>
+            <br/>
+            <input name="w" type="radio" id="t" value="5">
+            <label for="u" name="rate">5</label>
+            <br/>
+        </div>
+        <br/>
+        <div>
+            <button>Send your message!</button>
+        </div>
+    </form>
+</body>
+</html>
