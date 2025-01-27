@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    /* border: solid;
+    width: 100%; */
+    text-decoration: wavy underline;
+    letter-spacing: 7px ;
+}
+h4{
+    text-align: start;
+    text-decoration: line-through pink;
+}
+p{
+    text-align: end;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+h2{
+    text-decoration: overline red;
+}
+a{
+    text-decoration: none;
+}
