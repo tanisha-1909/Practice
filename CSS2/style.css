@@ -1,0 +1,70 @@
+/* universal selector */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: wheat;
+}
+
+/* element selector */
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+    text-align: center;
+}
+
+/* same property to different elements - use comma */
+/* h1,h3{
+    color: #b92b27;
+    text-align: center;
+} */
+
+/* id selector  */
+
+#task{
+    background-color: lightcoral;
+}
+
+
+/* class selector */
+.a{
+    text-align: justify;
+}
+
+.follow{
+    color:darkkhaki ;
+}
+
+/* descendant selector --> para --> span */
+
+p a{
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
+
+/* adjancent sibling combinator */
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: lightblue;
+}
+
+/* child combinator */
+
+div>input{
+    background-color:lightgray;
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color:green ;
+}
