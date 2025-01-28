@@ -3,12 +3,23 @@ h1{
     background-color: pink;
 }
 
-p{
+/* p{
     color:pink;
     background-color: black;
-}
+} */
 
 button {
     color:green;
     background-color: grey;
+}
+
+/* inheritance */
+div{
+    background-color: wheat;
+}
+p{
+    background-color: yellow;
+}
+ul{
+    background-color: inherit;
 }
