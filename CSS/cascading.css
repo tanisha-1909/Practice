@@ -6,3 +6,9 @@ h2{
     background-color: yellow;
     /* final color will be yellow */
 }
+
+/* !important - can never be changed */
+
+h2{
+    background-color: red !important;
+}
