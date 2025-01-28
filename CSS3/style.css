@@ -1,0 +1,81 @@
+/* div{
+    height: 110px;
+    width: 500px;
+    background-color: wheat;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    /* border-shorthand */
+    /* border: 2px solid orange; */
+    /* border-left-color: blue;
+    border-left-style: dashed;
+    border-top: 3px green dashed;
+    border-radius:10px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    border-width: 2px;
+    border-style: dotted;
+    border-color:yellowgreen;
+    border-radius: 50%;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: yellow;
+} */ 
+
+.outer{
+    width: 80px;
+    height: 240px;
+    border-width: 9px;
+    border-color: rgb(43, 25, 25);
+    border-style: double ;
+    padding-right: 2px;
+    padding-top: 4px;
+}
+
+.red{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+   
+}
+.yellow{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.green{
+    background-color: green;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
