@@ -1,0 +1,8 @@
+h2{
+    background-color: blue;
+}
+
+h2{
+    background-color: yellow;
+    /* final color will be yellow */
+}
