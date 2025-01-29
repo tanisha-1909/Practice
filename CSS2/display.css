@@ -1,0 +1,13 @@
+h2{
+    display: inline;
+    background-color: pink;
+}
+
+span{
+    display: block;
+    background-color: yellowgreen;
+    /* inline element has padding,margin only on left and right side */
+}
+div{
+    background-color: brown;
+}
