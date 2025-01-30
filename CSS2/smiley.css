@@ -1,0 +1,51 @@
+*{
+    background-color: wheat;
+}
+#square{
+    height: 200px;
+    width: 200px;
+    border: 1px black;
+    background-color: white;
+    padding: 4px;
+}
+
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:orange;
+}
+
+#leye{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    margin: 12px;
+    background-color: black;
+}
+#reye{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    margin: 12px;
+    background-color: black;
+}
+
+#mouth{
+    background-color:rgb(100, 3, 3);
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 130px;
+    left: 75px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
