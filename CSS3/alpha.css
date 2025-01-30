@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,0.2);
+    /* alpha value */
+
+    opacity: 1;
+    /* opacity */
+   
+    transition: 1s;
+    transition-delay: 1s;
+    
+    
+}
+
+div:hover{
+    background-color: green;
+    transition: 1s;
+    border-radius: 50%;
+    
+}
