@@ -19,7 +19,14 @@ div{
     transform: translateX(100px);
     transform: translateY(200px);
     transform: skew(-30deg);
+
+    /* box shadow - shadow around element frame*/
+
+    box-shadow: 2px 2px 10px black ;
+    background-image: url(dwayne-joe-yM5Bjny4IRU-unsplash.jpg);
     
+    background-size: contain;
+    /* contain /cover/auto */
 }
 
 div:hover{
