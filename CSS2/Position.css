@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: green;
+    border: 4px solid black;
+    margin: 20px;
+}
+
+.static{
+    background-color: yellow;
+
+     position: static;
+      
+    top: 100px; 
+    left: 6000px;
+}
+
+.rel{
+    background-color: pink;
+    position: relative;
+    left: 300px;
+    top: 100px;
+
+}
+
+.abs{
+    background-color: brown;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.fix{
+    background-color: cadetblue;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
