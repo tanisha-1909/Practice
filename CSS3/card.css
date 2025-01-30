@@ -1,0 +1,33 @@
+
+div{
+     display: inline-block;
+}
+.man{
+    height: 200px;
+    width: 200px;
+    background-image: url("man.jpg");
+    background-size: cover;
+}
+
+.woman{
+    height: 200px;
+    width: 200px;
+    background-image: url("woman.png");
+    background-size: cover;
+}
+
+.desc{
+    border: 2px;
+    border-color: black;
+    box-shadow: 2px 2px 8px black;
+    margin: 10px;
+    border-radius: 20px;
+    padding-left: 5px;
+    
+}
+.desc:hover{
+    box-shadow: 4px 8px 16px black;
+    transition: ease-in 0.5s;
+}
+
+
