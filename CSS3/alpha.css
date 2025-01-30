@@ -9,7 +9,16 @@ div{
    
     transition: 1s;
     transition-delay: 1s;
-    
+
+    /* tranform property */
+    transform:rotate(45deg);
+
+    transform: scale(2);
+
+    transform:translate(100px,200px) ;
+    transform: translateX(100px);
+    transform: translateY(200px);
+    transform: skew(-30deg);
     
 }
 
