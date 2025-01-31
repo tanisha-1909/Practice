@@ -1,0 +1,22 @@
+#outer{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border-width: 2px;
+    border-radius: 4px;
+    border-style: solid;
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content:center;
+}
+
+#outer div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    color: black;
+    line-height: 50px;
+    margin-left: 10px;
+}
