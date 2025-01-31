@@ -1,0 +1,26 @@
+#outer{
+    color: rgb(38, 174, 174);
+    border-width: 2px;
+    border: solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 50px auto;
+}
+
+#outer div{
+    height: 100px;
+    width: 100px;
+    color: black;
+    border: solid;
+    border-radius: 15px;
+    background-color: grey;
+    font-size: 40px;
+    text-align: center;
+    
+}
