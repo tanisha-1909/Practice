@@ -5,7 +5,7 @@
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* flex-direction: row-reverse; */
 
     align-items: flex-end;
@@ -18,16 +18,23 @@
     justify-content: space-around;
     justify-content: space-evenly; 
     
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: baseline;
 }
 h1{
     text-align: center;
 }
+#org{
+    /* initial set div size along main axis */
+    flex-basis: 80px;
+    flex-grow: 1;
+    max-width: 60px;
+    flex-shrink: 2;
 
+}
 #container div{
     height: 80px;
-    width: 300px;
+    width: 500px;
     color: white;
     text-align: center;
     font-size: 1.5;
