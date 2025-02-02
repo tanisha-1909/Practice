@@ -17,6 +17,16 @@
     column-gap: 10px;
 
     grid-gap: 20px 20px;
+
+    /*horizonatal*/
+    /* justify-items: start; */
+    /* for individual  item - justify self*/
+    /* justify-self:start */
+
+    /* vertical*/
+
+    /* align-items: start;
+    align-self: end; */
 }
 
 
@@ -26,6 +36,7 @@
     background-color: greenyellow;
     border: 2px solid black;
     text-align: center;
+    
 }
 
 /* grid column item span */
