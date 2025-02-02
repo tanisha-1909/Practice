@@ -1,0 +1,45 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: wheat;
+    animation-name: width_animate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes font_animation {
+    from {
+        font-size: 20px;
+    }
+    to{
+        font-size: 30px;
+    }
+}
+@keyframes color_animate {
+    from{
+        background-color: brown;
+        font-size: 20px;
+        
+    }
+    to{
+        background-color: blue;
+        font-size: 30px;
+        border-radius: 50px;
+    }
+    
+}
+@keyframes width_animate {
+    0%{
+        width: 20px;
+    }
+    50%{
+        width: 1000px;
+    }
+    100%{
+        width: 400px;
+    }
+    
+}
