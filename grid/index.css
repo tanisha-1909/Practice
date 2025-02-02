@@ -5,7 +5,20 @@
     display: grid;
 
     /* arranged in column with equal space */
+
+    /* grid template */
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    grid-template-columns: 100px 100px 100px;
+
+    /* grid-template-rows: repeat(2,1fr); */
+    
+    /* grid gap */
+    row-gap: 10px;
+    column-gap: 10px;
+
+    grid-gap: 20px 20px;
 }
+
 
 .item{
     width: 100px;
@@ -13,4 +26,21 @@
     background-color: greenyellow;
     border: 2px solid black;
     text-align: center;
+}
+
+/* grid column item span */
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: yellow;
+    grid-column: 1/span 3 ;
+}
+
+/* grid row item span */
+.item2{
+    background-color: blue;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    
 }
